@@ -12,11 +12,12 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Newstylesheet from './components/Newstylesheet';
 function App() {
   return (
     <div className="App">
-
-      <NameList />
+      <Newstylesheet primary={true} />
+      {/* <NameList /> */}
         {/* <Greet name="vishwas" heroName="superman">
           <p>This is child propss</p>
         </Greet>
