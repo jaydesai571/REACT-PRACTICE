@@ -13,10 +13,22 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Newstylesheet from './components/Newstylesheet';
+import Inlinecss from './components/Inlinecss';
+import './appStyle.css';
+import styles from './appStyle.module.css';
+import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-      <Newstylesheet primary={true} />
+     {/* FORM CONTROLLER LIKE INPUT tag and textarea */}
+      <Form />
+      {/* CSS FILE AND CSS VIA MODULE STYLE  */}
+      {/* <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1>
+        // INLINE CSS EXAMPLE 
+      <Inlinecss /> */}
+      {/* <Newstylesheet primary={true} /> */}
+     
       {/* <NameList /> */}
         {/* <Greet name="vishwas" heroName="superman">
           <p>This is child propss</p>
