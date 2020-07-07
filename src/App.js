@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet';
@@ -19,49 +19,13 @@ import styles from './appStyle.module.css';
 import Form from './components/Form';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import PureComponents from './components/PureComponents';
+import ParentComp from './components/ParentComp';
+import RefDemo from './components/RefDemo';
 function App() {
   return (
     <div className="App">
-        <Table />
-        {/* <FragmentDemo /> */}
-     {/* FORM CONTROLLER LIKE INPUT tag and textarea */}
-      {/* <Form /> */}
-      {/* CSS FILE AND CSS VIA MODULE STYLE  */}
-      {/* <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>
-        // INLINE CSS EXAMPLE 
-      <Inlinecss /> */}
-      {/* <Newstylesheet primary={true} /> */}
-     
-      {/* <NameList /> */}
-        {/* <Greet name="vishwas" heroName="superman">
-          <p>This is child propss</p>
-        </Greet>
-        <Greet name="jay" heroName="Iron Man">
-          <p>This is another child props</p>
-        </Greet> */}
-{/* 
-        <button>Action</button>
-
-        <Welcome name="vishwas" heroName="superman" />
-        <Welcome name="jay" heroName="Iron Man" />
-          <Hello /> 
-
-        <Message></Message>
-
-       
-
-        <Counter /> */}
-        {/* <Functionclick />
-
-        <Classclick></Classclick>
-         */}
-{/* 
-         <EventBind></EventBind> */}
-
-         {/* <ParentComponent /> */}
-
-         {/* <UserGreeting /> */}
+        <RefDemo />
     </div>
   );
 }
