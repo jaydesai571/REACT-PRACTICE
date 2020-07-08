@@ -23,10 +23,13 @@ import PureComponents from './components/PureComponents';
 import ParentComp from './components/ParentComp';
 import RefDemo from './components/RefDemo';
 import FocusInput from './components/FocusInput';
+import PortalDemo from './components/PortalDemo';
 function App() {
   return (
     <div className="App">
-      <FocusInput />
+      <PortalDemo />
+     
+      {/* <FocusInput /> */}
         {/* <RefDemo /> */}
     </div>
   );
